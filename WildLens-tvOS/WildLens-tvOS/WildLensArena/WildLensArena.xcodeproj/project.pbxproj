@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3F022895307F4C6F009CA0BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F02287F307F4C6D009CA0BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F022886307F4C6D009CA0BD;
+			remoteInfo = WildLensArena;
+		};
+		3F02289F307F4C6F009CA0BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F02287F307F4C6D009CA0BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F022886307F4C6D009CA0BD;
+			remoteInfo = WildLensArena;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F022887307F4C6D009CA0BD /* WildLensArena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildLensArena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F022894307F4C6F009CA0BD /* WildLensArenaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WildLensArenaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F02289E307F4C6F009CA0BD /* WildLensArenaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WildLensArenaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3F022889307F4C6D009CA0BD /* WildLensArena */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WildLensArena;
+			sourceTree = "<group>";
+		};
+		3F022897307F4C6F009CA0BD /* WildLensArenaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WildLensArenaTests;
+			sourceTree = "<group>";
+		};
+		3F0228A1307F4C6F009CA0BD /* WildLensArenaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WildLensArenaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F022884307F4C6D009CA0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F022891307F4C6F009CA0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F02289B307F4C6F009CA0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F02287E307F4C6D009CA0BD = {
+			isa = PBXGroup;
+			children = (
+				3F022889307F4C6D009CA0BD /* WildLensArena */,
+				3F022897307F4C6F009CA0BD /* WildLensArenaTests */,
+				3F0228A1307F4C6F009CA0BD /* WildLensArenaUITests */,
+				3F022888307F4C6D009CA0BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F022888307F4C6D009CA0BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F022887307F4C6D009CA0BD /* WildLensArena.app */,
+				3F022894307F4C6F009CA0BD /* WildLensArenaTests.xctest */,
+				3F02289E307F4C6F009CA0BD /* WildLensArenaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F022886307F4C6D009CA0BD /* WildLensArena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0228A8307F4C6F009CA0BD /* Build configuration list for PBXNativeTarget "WildLensArena" */;
+			buildPhases = (
+				3F022883307F4C6D009CA0BD /* Sources */,
+				3F022884307F4C6D009CA0BD /* Frameworks */,
+				3F022885307F4C6D009CA0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3F022889307F4C6D009CA0BD /* WildLensArena */,
+			);
+			name = WildLensArena;
+			packageProductDependencies = (
+			);
+			productName = WildLensArena;
+			productReference = 3F022887307F4C6D009CA0BD /* WildLensArena.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F022893307F4C6F009CA0BD /* WildLensArenaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0228AB307F4C6F009CA0BD /* Build configuration list for PBXNativeTarget "WildLensArenaTests" */;
+			buildPhases = (
+				3F022890307F4C6F009CA0BD /* Sources */,
+				3F022891307F4C6F009CA0BD /* Frameworks */,
+				3F022892307F4C6F009CA0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F022896307F4C6F009CA0BD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3F022897307F4C6F009CA0BD /* WildLensArenaTests */,
+			);
+			name = WildLensArenaTests;
+			packageProductDependencies = (
+			);
+			productName = WildLensArenaTests;
+			productReference = 3F022894307F4C6F009CA0BD /* WildLensArenaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F02289D307F4C6F009CA0BD /* WildLensArenaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0228AE307F4C6F009CA0BD /* Build configuration list for PBXNativeTarget "WildLensArenaUITests" */;
+			buildPhases = (
+				3F02289A307F4C6F009CA0BD /* Sources */,
+				3F02289B307F4C6F009CA0BD /* Frameworks */,
+				3F02289C307F4C6F009CA0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0228A0307F4C6F009CA0BD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3F0228A1307F4C6F009CA0BD /* WildLensArenaUITests */,
+			);
+			name = WildLensArenaUITests;
+			packageProductDependencies = (
+			);
+			productName = WildLensArenaUITests;
+			productReference = 3F02289E307F4C6F009CA0BD /* WildLensArenaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F02287F307F4C6D009CA0BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					3F022886307F4C6D009CA0BD = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					3F022893307F4C6F009CA0BD = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3F022886307F4C6D009CA0BD;
+					};
+					3F02289D307F4C6F009CA0BD = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3F022886307F4C6D009CA0BD;
+					};
+				};
+			};
+			buildConfigurationList = 3F022882307F4C6D009CA0BD /* Build configuration list for PBXProject "WildLensArena" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F02287E307F4C6D009CA0BD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3F022888307F4C6D009CA0BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F022886307F4C6D009CA0BD /* WildLensArena */,
+				3F022893307F4C6F009CA0BD /* WildLensArenaTests */,
+				3F02289D307F4C6F009CA0BD /* WildLensArenaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F022885307F4C6D009CA0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F022892307F4C6F009CA0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F02289C307F4C6F009CA0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F022883307F4C6D009CA0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F022890307F4C6F009CA0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F02289A307F4C6F009CA0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F022896307F4C6F009CA0BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F022886307F4C6D009CA0BD /* WildLensArena */;
+			targetProxy = 3F022895307F4C6F009CA0BD /* PBXContainerItemProxy */;
+		};
+		3F0228A0307F4C6F009CA0BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F022886307F4C6D009CA0BD /* WildLensArena */;
+			targetProxy = 3F02289F307F4C6F009CA0BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F0228A6307F4C6F009CA0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 18.5;
+			};
+			name = Debug;
+		};
+		3F0228A7307F4C6F009CA0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 18.5;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0228A9307F4C6F009CA0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.Harini.WildLensArena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		3F0228AA307F4C6F009CA0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.Harini.WildLensArena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		3F0228AC307F4C6F009CA0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.Harini.WildLensArenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WildLensArena.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WildLensArena";
+				TVOS_DEPLOYMENT_TARGET = 18.5;
+			};
+			name = Debug;
+		};
+		3F0228AD307F4C6F009CA0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.Harini.WildLensArenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WildLensArena.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WildLensArena";
+				TVOS_DEPLOYMENT_TARGET = 18.5;
+			};
+			name = Release;
+		};
+		3F0228AF307F4C6F009CA0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.Harini.WildLensArenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = WildLensArena;
+			};
+			name = Debug;
+		};
+		3F0228B0307F4C6F009CA0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.Harini.WildLensArenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = WildLensArena;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F022882307F4C6D009CA0BD /* Build configuration list for PBXProject "WildLensArena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0228A6307F4C6F009CA0BD /* Debug */,
+				3F0228A7307F4C6F009CA0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0228A8307F4C6F009CA0BD /* Build configuration list for PBXNativeTarget "WildLensArena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0228A9307F4C6F009CA0BD /* Debug */,
+				3F0228AA307F4C6F009CA0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0228AB307F4C6F009CA0BD /* Build configuration list for PBXNativeTarget "WildLensArenaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0228AC307F4C6F009CA0BD /* Debug */,
+				3F0228AD307F4C6F009CA0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0228AE307F4C6F009CA0BD /* Build configuration list for PBXNativeTarget "WildLensArenaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0228AF307F4C6F009CA0BD /* Debug */,
+				3F0228B0307F4C6F009CA0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F02287F307F4C6D009CA0BD /* Project object */;
+}
